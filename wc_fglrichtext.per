@@ -1,0 +1,23 @@
+LAYOUT (TEXT="Rich Text",MINWIDTH=80,MINHEIGHT=20)
+GRID
+{
+[rt                     ]
+[                       ]
+[                       ]
+[                       ]
+[info                   ]
+}
+END
+END
+ATTRIBUTES
+WEBCOMPONENT rt = FORMONLY.richtext,
+  COMPONENTTYPE = "fglrichtext",
+  PROPERTIES = (
+    toolbar = "bold italic underline undo redo",
+    spellcheck = "en_US.aff|en_US.dic"
+  ),
+  SIZEPOLICY = FIXED,
+  SCROLLBARS = NONE,
+  STRETCH = BOTH;
+EDIT info = FORMONLY.info, SCROLL;
+END
