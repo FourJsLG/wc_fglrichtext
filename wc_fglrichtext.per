@@ -1,6 +1,7 @@
 LAYOUT (TEXT="Rich Text",MINWIDTH=80,MINHEIGHT=20)
 GRID
 {
+[last_saved             ]
 [rt                     ]
 [                       ]
 [                       ]
@@ -13,11 +14,12 @@ ATTRIBUTES
 WEBCOMPONENT rt = FORMONLY.richtext,
   COMPONENTTYPE = "fglrichtext",
   PROPERTIES = (
-    toolbar = "bold italic underline undo redo",
+    toolbar = "aligncenter alignjustify alignleft alignnone alignright bold bullist code color fontselect fontsizeselect formatselect indent insert italic | numlist outdent redo removeformat strikethrough styleselect underline undo",
     spellcheck = "en_US.aff|en_US.dic"
   ),
   SIZEPOLICY = FIXED,
   SCROLLBARS = NONE,
   STRETCH = BOTH;
 EDIT info = FORMONLY.info, SCROLL;
+LABEL last_saved = FORMONLY.last_saved, COLOR=RED;
 END

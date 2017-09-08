@@ -3,6 +3,7 @@ MAIN
                richtext STRING,
                info STRING
            END RECORD
+    DEFINE last_saved STRING
 
     OPTIONS INPUT WRAP, FIELD ORDER FORM
 
