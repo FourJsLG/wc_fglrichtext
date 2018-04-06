@@ -6,12 +6,12 @@
     <Node path="wc_fglrichtext.4pw/wc_fglrichtext/wc_fglrichtext" type="pm/application"/>
   </ExpandedNodes>
   <OpenDocuments>
-    <Document container="true" filePath="wc_fglrichtext.per" locator="18:18:18:38" module="mod-ce3">
+    <Document container="true" filePath="wc_fglrichtext.per" locator="22:18" module="mod-ce3">
       <Data name="8" value="UTF-8"/>
     </Document>
-    <Document container="true" filePath="wc_fglrichtext.4gl" locator="31:1" module="mod-ce3">
+    <Document container="true" filePath="wc_fglrichtext.4gl" locator="38:40" module="mod-ce3">
       <Data name="8" value="UTF-8"/>
     </Document>
   </OpenDocuments>
-  <CurrentDocument filePath="wc_fglrichtext.per" module="mod-ce3"/>
+  <CurrentDocument filePath="" module="mod-wp"/>
 </WorkspaceViewState>
